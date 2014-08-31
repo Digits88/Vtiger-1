@@ -5,7 +5,8 @@
 #' @return Object of class Vtiger
 #' @slot userName Vtiger userName. Must be character. Provided by User. 
 #' @slot accessKey Vtiger accessKey. Must be character. Provided by User.
-#' @slot webServiceUrl Vtiger Url. Must be character. Provided by User.
+#' @slot webServiceUrl Vtiger Url. Must be character. Provided by User. Note the
+#' prefix will very likely be "/webservice.php".
 #' @slot sessionName Vtiger sessionName. Must be character. NOT provided by User
 #'  - generated at login.
 #' @usage obj = new("Vtiger", webServiceUrl, accessKey, userName)
