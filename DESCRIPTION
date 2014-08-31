@@ -1,0 +1,17 @@
+Package: Vtiger
+Type: Package
+Title: Provides R integration with Vtiger CRM System
+Version: 0.1
+Date: 2014-07-05
+Author: Richard Morris <vtiger.r.package@gmail.com>
+Maintainer: Richard Morris <vtiger.r.package@gmail.com>
+Description: Vtiger is an open source CRM system. This
+    package provides for CRUD integration between Vtiger and
+    R. This package may be useful for anyone wanting to
+    integrate customer/personal information with R
+    functionality - e.g. Emailing (with the help of sendmailR)
+    analysis/reports generated in R to a Vtiger client
+    distribution list.
+License: GPL-2
+Imports:
+    digest,RCurl,rjson

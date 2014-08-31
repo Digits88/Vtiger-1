@@ -1,0 +1,5 @@
+Vtiger 0.1
+===========
+
+* Initial commit providing basic login/CRUD/logout functionality
+  for integration between R and Vtiger CRM
